@@ -2,7 +2,10 @@
   "javascript.implicitProjectConfig.experimentalDecorators": true, // 支持装饰器
   "typescript.tsdk": "node_modules/typescript/lib",
   "editor.formatOnSave": true,
-  "eslint.validate": ["javascript", "javascriptreact"],
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact"
+  ],
   "eslint.alwaysShowStatus": true,
   "eslint.lintTask.enable": true,
   "debug.node.autoAttach": "on",
@@ -10,6 +13,6 @@
     "packages/*/lib": true
   },
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
+    "source.fixAll.eslint": "explicit"
   }
 }
